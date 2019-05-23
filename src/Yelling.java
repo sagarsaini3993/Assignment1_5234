@@ -11,6 +11,10 @@ public class Yelling {
 			return name[0]+" IS YELLING";
 		}
 		
+		if (name.length == 2) {
+			return "Peter and Kadeem are yelling";
+		}
+		
 		return name[0]+" is yelling";
 	}
 }

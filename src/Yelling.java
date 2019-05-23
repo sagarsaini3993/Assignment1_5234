@@ -1,16 +1,16 @@
 
 public class Yelling {
 	
-	public String Scream(String name) {
+	public String Scream(String[] name) {
 		
-		if (name == null) {
+		if (name[0] == "") {
 			return "Nobody is yelling";
 		}
 		
-		if (name == name.toUpperCase()) {
-			return name+" IS YELLING";
+		if (name[0] == name[0].toUpperCase()) {
+			return name[0]+" IS YELLING";
 		}
 		
-		return name+" is yelling";
+		return name[0]+" is yelling";
 	}
 }

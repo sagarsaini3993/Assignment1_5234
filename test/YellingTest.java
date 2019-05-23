@@ -42,7 +42,8 @@ public class YellingTest {
 		Yelling y = new Yelling();
 		String[] arr = {"Peter", "Kadeem"};
 		String actualOutput = y.Scream(arr);
-		assertEquals("Peter and Kadeem are yelling", actualOutput);
+//		assertEquals("Peter and Kadeem are yelling", actualOutput);
+		assertEquals(arr[0]+" and " +arr[1]+" are yelling", actualOutput);
 	}
 
 }

@@ -10,7 +10,11 @@ public class YellingTest {
 	}
 
 	@Test
-	public void test() {
+	public void testOnePersonYelling() {
+
+		Yelling y = new Yelling();
+		String actualOutput = y.Scream("Peter");
+		assertEquals("Peter is yelling", actualOutput);
 	}
 
 }
